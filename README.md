@@ -1,2 +1,2 @@
-# Jatin.github.io
+# Jatin Kalal
 Welcome to my Portfolio!
