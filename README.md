@@ -1,11 +1,4 @@
 
-# Welcome to my Portfolio!
-
-<style>
-.custom-font {
-    font-family: 'FontFamilyName', sans-serif;
-}
-</style>
 
 <dl>
 <dt>Course Name</dt>
