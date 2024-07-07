@@ -1,11 +1,9 @@
 
 # Welcome to my Portfolio!
 
-
-
 <style>
 .custom-font {
-    font-family: 'FontFamilyName', sans-serif; /* Replace 'FontFamilyName' with the actual font family used for Tejas Anvekar */
+    font-family: 'FontFamilyName', sans-serif;
 }
 </style>
 
