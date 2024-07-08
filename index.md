@@ -201,6 +201,16 @@
         <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
     </div>
 
+### Time and Space Complexities
+
+| **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
+|---------------------------------------|------------------------------------------------|-----------------------------------------------|
+| **Segment Trees**                     | Build: O(n log n), Query/Update: O(log n)      | O(n)                                          |
+| **Red-Black Trees**                   | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+| **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
+| **A_star Search Algorithm**           | O(E)                                           | O(E)                                          |
+| **Skip List**                         | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+
     <div class="references">
         <h2>References</h2>
         <ol>
