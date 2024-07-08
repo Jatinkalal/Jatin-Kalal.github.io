@@ -137,8 +137,8 @@
         <p><strong>What it is:</strong> It involves keeping track of the incoming orders and its processing.</p>
         <p><strong>Data Structure Used:</strong> Priority Queue (Heap) to maintain incoming orders, time complexity O(log n) for insertions and deletions.</p>
         <p><strong>Alternative Data Structure:</strong> Skip List, although the implementation could be challenging, it offers a time complexity of O(log n).</p>
-        <p><strong>Code:</strong> <a href="/codes/SkipList.cpp" class="code">SkipList</a></p>
-        <p><strong>Source:</strong> <a href="https://www.example.com">Example Website</a></p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/SkipList.cpp" class="code">SkipList</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/skip-list-set-2-insertion/">GFG</a></p>
         <h3>Delivery Service</h3>
         <p>write abt case2.</p>
         <h3>User Searchflow</h3>
