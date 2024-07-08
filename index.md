@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -112,6 +113,28 @@
             font-size: 1.8em;
             margin-bottom: 10px;
         }
+
+        .complexity-table {
+            margin: 20px auto;
+            width: 90%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .complexity-table th,
+        .complexity-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .complexity-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .complexity-table tr:hover {
+            background-color: #f5f5f5;
+        }
     </style>
 </head>
 <body>
@@ -132,7 +155,7 @@
         <p>In this work we identify several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
-     <div class="business-cases">
+    <div class="business-cases">
         <h2>Identified Business Cases</h2>
         <div class="case-rectangle case1">Delivery Service</div>
         <div class="case-rectangle case2">Order Processing</div>
@@ -141,7 +164,6 @@
         <div class="case-rectangle case5">Item Range Sys</div>
         <div class="case-rectangle case6">Shopping Cart</div>
     </div>
-
 
     <div class="case-description">
         <h3>Delivery Service System</h3>
@@ -178,36 +200,74 @@
         <img src="https://useinsider.com/assets/media/2021/05/recommendation-systems-sm-2.png" alt="Recommendation Service Image">
         <p><strong>What it is:</strong> Recommendation service suggests items based on user preferences and behavior.</p>
         <p><strong>Method/Algorithm Used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items.</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
-        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External GitHub Repo</a></p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/CollaborativeFiltering.cpp" class="code">Collaborative Filtering</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/collaborative-filtering/">GeeksforGeeks</a></p>
     </div>
 
     <div class="case-description">
-        <h3>Item Range System</h3>
-        <img src="https://woobewoo.com/wp-content/uploads/2020/07/Price-Range.png" alt="Item Range System Image">
-        <p><strong>What it is:</strong> Item range system determines which items to display based on user's preferences and behavior.</p>
-        <p><strong>Data Structure Used:</strong> Segment Tree, an advanced data structure that allows querying which of the N segments contain a given value. It offers a time complexity of O(log n) </p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segment.cpp" class="code">Segment Tree</a></p>
-        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/">GeeksforGeeks</a></p>
+        <h3>Item Range Search System</h3>
+        <img src="https://miro.medium.com/v2/resize:fit:1000/format:webp/1*Utst6aW54ik6X24u04NvUQ.png" alt="Item Range Search System Image">
+        <p><strong>What it is:</strong> It is about finding items within a given range of values efficiently.</p>
+        <p><strong>Data Structure Used:</strong> Segment Tree, used for storing intervals, offers a time complexity of O(log n) for range queries.</p>
+        <p><strong>Alternative Data Structure:</strong> Interval Trees, similar to Segment Trees but uses a balanced BST with an added midpoint for each segment. It also offers a time complexity of O(log n).</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/IntervalTree.cpp" class="code">Interval Tree</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/interval-tree/">GeeksforGeeks</a></p>
     </div>
-
 
     <div class="case-description">
-        <h3>Shopping Cart Service</h3>
-        <img src="https://theecommmanager.com/wp-content/uploads/sites/6/2022/11/what-is-a-shopping-cart-in-ecommerce-featured-image-01-1024x576.png" alt="Shopping cart">
-        <p><strong>What it is:</strong> It maintains items which are selected to buy. Add and delete are the major two functions of this service.</p>
-        <p><strong>Data Structure Used:</strong> Linked List is a common data strcuture used with time complexity O(n) for addition and deletion</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">Shopping Cart</a></p>
-        <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
+        <h3>Shopping Cart System</h3>
+        <img src="https://miro.medium.com/v2/resize:fit:1000/format:webp/1*yZwcv5yHh2ytit2jzB0VHQ.jpeg" alt="Shopping Cart System Image">
+        <p><strong>What it is:</strong> It is about managing items added to a user's cart for purchase, ensuring efficient updates and retrievals.</p>
+        <p><strong>Data Structure Used:</strong> Hash Table, provides O(1) average time complexity for insertions, deletions, and lookups.</p>
+        <p><strong>Alternative Data Structure:</strong> Balanced Binary Search Tree, such as AVL or Red Black Tree, offers O(log n) time complexity for the same operations but ensures elements are ordered.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShoppingCartAVL.cpp" class="code">AVL Tree Shopping Cart</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/avl-tree-set-1-insertion/">GeeksforGeeks</a></p>
     </div>
+
+    <!-- Time and Space Complexities Table -->
+    <h2>Time and Space Complexities</h2>
+    <table class="complexity-table">
+        <thead>
+            <tr>
+                <th>Algorithm</th>
+                <th>Time Complexity</th>
+                <th>Space Complexity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segment Trees</td>
+                <td>Build: O(n log n), Query/Update: O(log n)</td>
+                <td>O(n)</td>
+            </tr>
+            <tr>
+                <td>Red-Black Trees</td>
+                <td>Insert/Delete/Search: O(log n)</td>
+                <td>O(n)</td>
+            </tr>
+            <tr>
+                <td>Dijkstra's Algorithm</td>
+                <td>O((V + E) log V)</td>
+                <td>O(V^2)</td>
+            </tr>
+            <tr>
+                <td>A_star Search Algorithm</td>
+                <td>O(E)</td>
+                <td>O(E)</td>
+            </tr>
+            <tr>
+                <td>Skip List</td>
+                <td>Insert/Delete/Search: O(log n)</td>
+                <td>O(n)</td>
+            </tr>
+        </tbody>
+    </table>
 
     <div class="references">
         <h2>References</h2>
-        <ol>
-            <li><a href="https://medium.com/@samarthasthan/building-a-scalable-e-commerce-empire-a-micro-services-system-design-approach-96118bbcef8e" target="_blank">Building a Scalable E-commerce Empire</a></li>
-            <li><a href="https://www.geeksforgeeks.org/e-commerce-architecture-system-design-for-e-commerce-website/" target="_blank">System Architecture for E-commerce</a></li>
-        </ol>
+        <p>Data Structures and Algorithms Made Easy by Narasimha Karumanchi</p>
+        <p>Introduction to Algorithms by Thomas H. Cormen</p>
+        <p>Official documentation of C++ STL</p>
     </div>
-
 </body>
 </html>
