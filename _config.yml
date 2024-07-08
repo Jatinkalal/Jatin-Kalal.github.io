@@ -1,8 +1,5 @@
 theme: texture
-markdown: kramdown
-kramdown:
-  input: GFM
-include: [README.md]
+
 
 texture:
   style: [blue]
