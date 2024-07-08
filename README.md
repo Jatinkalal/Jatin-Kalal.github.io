@@ -60,7 +60,7 @@ Data structures play a crucial role in E-commerce systems by enabling efficient 
 ### Item in Range System
 - **What it is:** Item range system determines which items to display based on user's preferences and behavior.
 - **Data Structure Used:** Segment Tree, an advanced data structure that allows querying which of the N segments contain a given value. It offers a time complexity of O(log n).
-- [Code for Segment Tree](https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segment.cpp)
+- [Code for Segment Tree](https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segmenTree.cpp)
 
 ### Shopping Cart Service
 - **What it is:** It maintains items which are selected to buy. Add and delete are the major two functions of this service.
