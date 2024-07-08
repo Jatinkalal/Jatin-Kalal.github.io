@@ -186,8 +186,7 @@
         <h3>Item Range System</h3>
         <img src="https://woobewoo.com/wp-content/uploads/2020/07/Price-Range.png" alt="Item Range System Image">
         <p><strong>What it is:</strong> Item range system determines which items to display based on user's preferences and behavior.</p>
-        <p><strong>Data Structure Used:</strong> Range Tree, where each node contains the minimum and maximum value of its children. Time complexity O(log n) for range queries.</p>
-        <p><strong>Alternative Data Structure:</strong> Segment Tree, an advanced data structure that allows querying which of the N segments contain a given value. It offers a time complexity of O(log n).</p>
+        <p><strong>Data Structure Used:</strong> Segment Tree, an advanced data structure that allows querying which of the N segments contain a given value. It offers a time complexity of O(log n) </p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segment.cpp" class="code">Segment Tree</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/">GeeksforGeeks</a></p>
     </div>
