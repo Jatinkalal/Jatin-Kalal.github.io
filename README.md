@@ -78,8 +78,9 @@ Data structures play a crucial role in E-commerce systems by enabling efficient 
 | **Skip List**                         | Insert/Delete/Search: O(log n)                 | O(n)                                          |
 
 ## References
-1. GeeksforGeeks (GFG) 'System Architecture for E-commerce'. Available at: https://www.geeksforgeeks.org/e-commerce-architecture-system-design-for-e-commerce-website/
-2. Medium 'Building scalable E-commerce empire'. Available at: https://medium.com/@samarthasthan/building-a-scalable-e-commerce-empire-a-micro-services-system-design-approach-96118bbcef8e
+1. Pugh, W., 1990. Skip lists: a probabilistic alternative to balanced trees. Communications of the ACM, 33(6), pp.668-676.
+2. GeeksforGeeks (GFG) 'System Architecture for E-commerce'. Available at: https://www.geeksforgeeks.org/e-commerce-architecture-system-design-for-e-commerce-website/
+3. Medium 'Building scalable E-commerce empire'. Available at: https://medium.com/@samarthasthan/building-a-scalable-e-commerce-empire-a-micro-services-system-design-approach-96118bbcef8e
 
 
 
