@@ -1,1 +1,6 @@
 remote_theme: samarsault/texture
+
+texture:
+  style: [blue]
+
+
