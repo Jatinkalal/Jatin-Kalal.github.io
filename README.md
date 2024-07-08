@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -135,7 +134,11 @@
 
     <div class="case-description">
         <h3>Order Processing System</h3>
-        <p>likh case1.</p>
+        <p>What it is: It involves keeping track of the incoming orders and its processing.</p>
+        <p>Data Strcuture Used: Priority Queue(Heap) to maintain incoming orders, time complexity O(logn) for insertions and deletion.
+        <p>Alternative Data strcuture: Skip list although the implementation could be challenging but offers a time complexity of O(logn).
+        <p>Code:
+        <p> Souce: 
         <h3>Delivery Service</h3>
         <p>write abt case2.</p>
         <h3>User Searchflow</h3>
