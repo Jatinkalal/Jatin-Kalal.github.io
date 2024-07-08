@@ -233,7 +233,7 @@
         <h3>Location Based Item Suggestion</h3>
         <img src="https://miro.medium.com/v2/resize:fit:1400/1*K0p9LiIBYfXkAUIU0Zz8EA.jpeg" alt="Location Based Suggestion">
         <p><strong>What it is:</strong>It suggests/recommends items based on local region of the user.</p>
-        <p><strong>Algorithm Used:</strong>Geographical Based Location</p>
+        <p><strong>Algorithm Used:</strong>Geographical Based Location. Time complexity O(n) for generating recomendation and O(1) for updating</p>
         <p><strong>Code:</strong> <a href="https://github.com/shakasom/location-based-recommendations" class="code">External Code</a></p>
 
     </div>
