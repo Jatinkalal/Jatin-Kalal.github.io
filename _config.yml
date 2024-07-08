@@ -1,4 +1,4 @@
-remote_theme: samarsault/texture
+theme: texture
 
 texture:
   style: [blue]
