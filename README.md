@@ -120,7 +120,7 @@
     <div class="introduction">
         <h2>Introduction</h2>
         <img src="https://aeldraconsultancy.in/site/views//assets/images/eCommerce.jpg" alt="Introduction Image" class="intro-image">
-        <p>Intro still on the way.</p>
+        <p>In this work we idenfitfy several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves diverse market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
     <div class="business-cases">
@@ -133,15 +133,15 @@
     </div>
 
     <div class="case-description">
-        <h3>Case 1</h3>
+        <h3>Order Processing System</h3>
         <p>likh case1.</p>
-        <h3>Case 2</h3>
+        <h3>Delivery Service</h3>
         <p>write abt case2.</p>
-        <h3>Case 3</h3>
+        <h3>User Searchflow</h3>
         <p>abt case3.</p>
-        <h3>Case 4</h3>
+        <h3>Inventory Management</h3>
         <p>abt case4.</p>
-        <h3>Case 5</h3>
+        <h3>Notification and Recommendation Service</h3>
         <p>abt case5.</p>
     </div>
 
