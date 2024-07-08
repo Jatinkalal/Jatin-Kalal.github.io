@@ -99,6 +99,18 @@
             background-color: #FFEB3B;
         }
 
+         .case8 {
+            background-color: #9C27B0;
+        }
+
+         .case9 {
+            background-color: #4CAF50;
+        }
+
+         .case10 {
+            background-color: #2196F3;
+        }
+
         .case-description {
             margin-top: 10px;
             padding-left: 20px;
@@ -169,6 +181,9 @@
         <div class="case-rectangle case5">Item Range Sys</div>
         <div class="case-rectangle case6">Shopping Cart</div>
         <div class="case-rectangle case7">Sugg on Loc</div>
+        <div class="case-rectangle case8">Customer Info</div>
+        <div class="case-rectangle case9">Route analysis</div>
+        <div class="case-rectangle case10">Dynamic Price</div>
     </div>
 
     <div class="case-description">
@@ -238,6 +253,32 @@
 
     </div>
 
+     <div class="case-description">
+        <h3>Customer Information Storage</h3>
+        <img src="https://media.sproutsocial.com/uploads/2023/02/Managing-customer-data-from-the-first-social-engagement-to-the-last-service-DM_V1-01-2.svg" alt="Location Based Suggestion">
+        <p><strong>What it is:</strong>It stores customer information.</p>
+        <p><strong>Algorithm Used:</strong>Linked List, with Time complexity O(n) for adding and deletion</p>
+        <p><strong>Code:</strong> <a href="https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp" class="code">External Code</a></p>
+
+    </div>
+
+        <div class="case-description">
+        <h3>Route Analysis for different cities</h3>
+        <img src="https://www.mdpi.com/smartcities/smartcities-06-00094/article_deploy/html/images/smartcities-06-00094-g009-550.jpg" alt="Route Suggestion">
+        <p><strong>What it is:</strong>It tells you the effective path to deliver between two cities.</p>
+        <p><strong>Algorithm Used:</strong>Prims Algorithm</p>
+        <p><strong>Code:</strong> <a href="https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp" class="code">External Code</a></p>
+
+    </div>
+
+    <div class="case-description">
+        <h3>Dynamic price service</h3>
+        <img src="https://www.hubspot.com/hs-fs/hubfs/The%20Plain%20English%20Guide%20to%20Dynamic%20Pricing.webp?width=600&height=231&name=The%20Plain%20English%20Guide%20to%20Dynamic%20Pricing.webp" alt="Dynamic Price">
+        <p><strong>What it is:</strong>Dynamic Price based on festivals/sales</p>
+        <p><strong>Algorithm Used:</strong>Segment Tree with lazy propogation</p>
+        <p><strong>Code:</strong> <a href="https://github.com/vivek1011/Segment-tree-lazy-propagation-" class="code">External Code</a></p>
+
+    </div>
 
     <!-- Time and Space Complexities Table -->
     <h2>Time and Space Complexities</h2>
