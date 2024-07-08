@@ -129,29 +129,15 @@
         <p>In this work we identify several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
-    <div class="business-cases">
+     <div class="business-cases">
         <h2>Identified Business Cases</h2>
-        <div class="case-rectangle case1">
-            <img src="path_to_delivery_service_image.jpg" alt="Delivery Service Image">
-            Delivery Service
-        </div>
-        <div class="case-rectangle case2">
-            <img src="path_to_order_processing_image.jpg" alt="Order Processing Image">
-            Order Processing
-        </div>
-        <div class="case-rectangle case3">
-            <img src="path_to_inventory_management_image.jpg" alt="Inventory Management Image">
-            Inventory Management
-        </div>
-        <div class="case-rectangle case4">
-            <img src="path_to_recommendation_service_image.jpg" alt="Recommendation Service Image">
-            Recommendation Service
-        </div>
-        <div class="case-rectangle case5">
-            <img src="path_to_item_range_system_image.jpg" alt="Item Range System Image">
-            Item Range System
-        </div>
+        <div class="case-rectangle case1">Delivery Service</div>
+        <div class="case-rectangle case2">Order Processing</div>
+        <div class="case-rectangle case3">Inv Management</div>
+        <div class="case-rectangle case4">Recommendation</div>
+        <div class="case-rectangle case5">Item Range Sys</div>
     </div>
+
 
     <div class="case-description">
         <h3>Delivery Service</h3>
