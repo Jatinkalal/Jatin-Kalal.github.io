@@ -55,14 +55,15 @@
         }
 
         .case-rectangle {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             width: 200px;
             height: 100px;
             border: 2px solid #000;
             border-radius: 10px;
             margin: 10px;
             text-align: center;
-            line-height: 100px;
             color: white;
             font-weight: bold;
             padding: 10px 20px; /* Adjusted padding to fit text */
@@ -120,7 +121,7 @@
     <div class="introduction">
         <h2>Introduction</h2>
         <img src="https://aeldraconsultancy.in/site/views//assets/images/eCommerce.jpg" alt="Introduction Image" class="intro-image">
-        <p>In this work we idenfitfy several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves diverse market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
+        <p>In this work we idenfitfy several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
     <div class="business-cases">
