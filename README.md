@@ -140,7 +140,11 @@
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/SkipList.cpp" class="code">SkipList</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/skip-list-set-2-insertion/">GFG</a></p>
         <h3>Delivery Service</h3>
-        <p>write abt case2.</p>
+        <p><strong>What it is:</strong> It is about tracking orders which are out for delivery and finding a shortest path to the customer.</p>
+        <p><strong>Algorithm Used:</strong> Dijkstra's Algorithm, time complexity O(V2) using arrays where V is the vertices.</p>
+        <p><strong>Alternative Algorithm:</strong> A* algorithm its a faster algorithm than Dijksta's which is now more commonly used with time complexity of O(E), where E is the number of edges.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/A*.cpp" class="code">A*</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/a-search-algorithm/">GFG</a></p>
         <h3>User Searchflow</h3>
         <p>abt case3.</p>
         <h3>Inventory Management</h3>
