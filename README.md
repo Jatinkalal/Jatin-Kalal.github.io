@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -65,7 +65,7 @@
             line-height: 100px;
             color: white;
             font-weight: bold;
-            padding: 10px; /* Adding padding to fit text */
+            padding: 10px 20px; /* Adjusted padding to fit text */
             box-sizing: border-box; /* Ensure padding is included in the dimensions */
         }
 
