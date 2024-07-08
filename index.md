@@ -95,6 +95,10 @@
             background-color: #FF003B;
         }
 
+        .case7 {
+            background-color: #FFEB3B;
+        }
+
         .case-description {
             margin-top: 10px;
             padding-left: 20px;
@@ -164,6 +168,7 @@
         <div class="case-rectangle case4">Recommendation</div>
         <div class="case-rectangle case5">Item Range Sys</div>
         <div class="case-rectangle case6">Shopping Cart</div>
+        <div class="case-rectangle case7">Sugg on Loc</div>
     </div>
 
     <div class="case-description">
@@ -223,6 +228,16 @@
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">ShopCart</a></p>
         <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
     </div>
+
+    <div class="case-description">
+        <h3>Location Based Item Suggestion</h3>
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*K0p9LiIBYfXkAUIU0Zz8EA.jpeg" alt="Location Based Suggestion">
+        <p><strong>What it is:</strong>It suggests/recommends items based on local region of the user.</p>
+        <p><strong>Algorithm Used:</strong>Geographical Based Location</p>
+        <p><strong>Code:</strong> <a href="https://github.com/shakasom/location-based-recommendations" class="code">External Code</a></p>
+
+    </div>
+
 
     <!-- Time and Space Complexities Table -->
     <h2>Time and Space Complexities</h2>
