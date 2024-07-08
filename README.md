@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -104,35 +103,9 @@
             font-size: 1.8em;
             margin-bottom: 10px;
         }
-
-        .highlighted {
-            background-color: yellow;
-            font-weight: bold;
-        }
     </style>
-    <script>
-        function highlightWords() {
-            var wordsToHighlight = ["E-commerce", "algorithmic", "time complexity", "Dijkstra's Algorithm", "A* algorithm", "Priority Queue", "Heap", "Skip List", "AVL Trees", "Red Black Trees", "Collaborative Filtering", "Segment Trees"];
-            wordsToHighlight.forEach(word => {
-                var elements = document.getElementsByTagName('*');
-                for (var i = 0; i < elements.length; i++) {
-                    var element = elements[i];
-                    for (var j = 0; j < element.childNodes.length; j++) {
-                        var node = element.childNodes[j];
-                        if (node.nodeType === 3) {
-                            var text = node.nodeValue;
-                            var replacedText = text.replace(word, `<span class="highlighted">${word}</span>`);
-                            if (replacedText !== text) {
-                                element.replaceChild(document.createRange().createContextualFragment(replacedText), node);
-                            }
-                        }
-                    }
-                }
-            });
-        }
-    </script>
 </head>
-<body onload="highlightWords()">
+<body>
     <dl>
         <dt>Course Name</dt>
         <dd>Algorithmic Problem Solving (APS 2024)</dd>
@@ -147,7 +120,7 @@
     <div class="introduction">
         <h2>Introduction</h2>
         <img src="https://aeldraconsultancy.in/site/views//assets/images/eCommerce.jpg" alt="Introduction Image" class="intro-image">
-        <p>In this work we idenfitfy several business cases within the domain of <span class="highlighted">electronic commerce (e-commerce)</span>, where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
+        <p>In this work we idenfitfy several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
     <div class="business-cases">
@@ -163,25 +136,48 @@
         
         <h3>Delivery Service</h3>
         <p><strong>What it is:</strong> It is about tracking orders which are out for delivery and finding a shortest path to the customer.</p>
-        <p><strong>Algorithm Used:</strong> <span class="highlighted">Dijkstra's Algorithm</span>, time complexity O(V2) using arrays where V is the number of vertices.</p>
-        <p><strong>Alternative Algorithm:</strong> <span class="highlighted">A* algorithm</span> its a faster algorithm than Dijksta's which is now more commonly used with time complexity of O(E), where E is the number of edges.</p>
+        <p><strong>Algorithm Used:</strong> Dijkstra's Algorithm, time complexity O(V2) using arrays where V is the number of vertices.</p>
+        <p><strong>Alternative Algorithm:</strong> A* algorithm its a faster algorithm than Dijksta's which is now more commonly used with time complexity of O(E), where E is the number of edges.</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/A*.cpp" class="code">A*</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/a-search-algorithm/">GFG</a></p>
         
         <h3>Order Processing System</h3>
         <p><strong>What it is:</strong> It involves keeping track of the incoming orders and its processing.</p>
-        <p><strong>Data Structure Used:</strong> <span class="highlighted">Priority Queue (Heap)</span> to maintain incoming orders, time complexity O(log n) for insertions and deletions.</p>
-        <p><strong>Alternative Data Structure:</strong> <span class="highlighted">Skip List</span>, although the implementation could be challenging, it offers a time complexity of O(log n).</p>
+        <p><strong>Data Structure Used:</strong> Priority Queue (Heap) to maintain incoming orders, time complexity O(log n) for insertions and deletions.</p>
+        <p><strong>Alternative Data Structure:</strong> Skip List, although the implementation could be challenging, it offers a time complexity of O(log n).</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/SkipList.cpp" class="code">SkipList</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/skip-list-set-2-insertion/">GFG</a></p>
 
         <h3>Inventory Management System</h3>
         <p><strong> What it is:</strong>Inventory management about keeping track of inventory levels(basically goods), orders, sales and deliveries.</p>
-        <p><strong>Data Structure Used:</strong> <span class="highlighted">AVL Trees</span>,defined as a self-balancing BST where the difference between heights of left and right subtrees for any node cannot be more than one. It offers a time complexity of O(log<sub>2</sub>n) for all three tree operations.</p>
-        <p><strong>Alternative Data Structure:</strong> <span class="highlighted">Red Black Trees</span> are self-balancing, using a simple color-coding scheme to adjust the tree after each modification. It offers a time complexity of O(logn) for all three operations.</p>
+        <p><strong>Data Structure Used:</strong> AVL Trees,defined as a self-balancing BST where the difference between heights of left and right subtrees for any node cannot be more than one. It offers a time complexity of O(log<sub>2</sub>n) for all three tree operations.</p>
+        <p><strong>Alternative Data Structure:</strong> Red Black Trees are self-balancing, using a simple color-coding scheme to adjust the tree after each modification. It offers a time complexity of O(logn) for all three operations.</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/RedBlackTree.cpp" class="code">Red Black Tree</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/introduction-to-red-black-tree/">GFG</a></p>
 
         <h3>Recommendation Service</h3>
         <p><strong>What it is:</strong> Whenever you search for a book,some e-commerce webistes suggests you similiar books based on your liking, this is what recommendation service is.</p>
-        <p><strong>Which method/Algo to be used:</strong> <span class="highlighted">Collaborative Filtering</span> recommends
+        <p><strong>Which method/Algo to be used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items. The basic assumption behind the algorithm is that users with similar interests have common preferences.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
+        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External Github Repo</a></p>
+
+         <h3>Items suggestion based on range filter</h3>
+        <p><strong>What it is:</strong> Whenever you visit any e-commerce webiste there is an option to show items that are in the some range, it could be cost,some types where multiple options are available.</p>
+        <p><strong>Which method/Algo to be used:</strong> Segment Trees perform really well for range based filtering, with its time complexity of O(n) for building of the tree and O(logn) for queries.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Segment Tree</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-sum-of-given-range/">GFG</a></p>
+
+    </div>
+
+    <div class="references">
+    <h2>References</h2>
+    <ol>
+        <li><a href="https://medium.com/@samarthasthan/building-a-scalable-e-commerce-empire-a-micro-services-system-design-approach-96118bbcef8e" target="_blank">Building a Scalable E-commerce Empire</a></li>
+        <li><a href="https://www.geeksforgeeks.org/e-commerce-architecture-system-design-for-e-commerce-website/" target="_blank">System Architecuture for E-commerce</a></li>
+        
+    </ol>
+    
+</div>
+
+</body>
+</html>
