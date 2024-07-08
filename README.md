@@ -91,6 +91,10 @@
             background-color: #9C27B0;
         }
 
+        .case6 {
+            background-color: #FF003B;
+        }
+
         .case-description {
             margin-top: 10px;
             padding-left: 20px;
