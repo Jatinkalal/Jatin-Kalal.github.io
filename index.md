@@ -144,7 +144,7 @@
 
 
     <div class="case-description">
-        <h3>Delivery Service</h3>
+        <h3>Delivery Service System</h3>
         <img src="https://www.odtap.com/wp-content/uploads/2018/10/doorstep.jpg" alt="Delivery Service Image">
         <p><strong>What it is:</strong> It is about tracking orders which are out for delivery and finding the shortest path to the customer.</p>
         <p><strong>Algorithm Used:</strong> Dijkstra's Algorithm, time complexity O(V^2) using arrays where V is the number of vertices.</p>
