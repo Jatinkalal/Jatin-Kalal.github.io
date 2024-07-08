@@ -125,11 +125,11 @@
 
     <div class="business-cases">
         <h2>Identified Business Cases</h2>
-        <div class="case-rectangle case1">Order Processing System</div>
+        <div class="case-rectangle case1">Order Processing</div>
         <div class="case-rectangle case2">Delivery Service</div>
         <div class="case-rectangle case3">User Searchflow</div>
         <div class="case-rectangle case4">Inventory Management</div>
-        <div class="case-rectangle case5">Notification and Recommendation</div>
+        <div class="case-rectangle case5">Recommendation</div>
     </div>
 
     <div class="case-description">
