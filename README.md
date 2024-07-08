@@ -150,11 +150,14 @@
     </div>
 
     <div class="references">
-        <h2>References</h2>
-        <ol>
-            <li>add kar1</li>
-            <li>add kar2</li>
-        </ol>
-    </div>
+    <h2>References</h2>
+    <ol>
+        <li><a href="https://medium.com/@samarthasthan/building-a-scalable-e-commerce-empire-a-micro-services-system-design-approach-96118bbcef8e" target="_blank">Building a Scalable E-commerce Empire</a></li>
+        <li><a href="https://www.geeksforgeeks.org/e-commerce-architecture-system-design-for-e-commerce-website/" target="_blank">System Architecuture for E-commerce</a></li>
+        
+    </ol>
+    
+</div>
+
 </body>
 </html>
