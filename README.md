@@ -129,7 +129,7 @@
         <div class="case-rectangle case2">Order Processing</div>
         <div class="case-rectangle case3">Inv Management</div>
         <div class="case-rectangle case4">Recommendation</div>
-        <div class="case-rectangle case5">Recommendation</div>
+        <div class="case-rectangle case5">Item Range Sys</div>
     </div>
 
     <div class="case-description">
@@ -161,13 +161,12 @@
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
         <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External Github Repo</a></p>
 
-         <h3>Recommendation Service</h3>
-        <p><strong>What it is:</strong> Whenever you search for a book,some e-commerce webistes suggests you similiar books based on your liking, this is what recommendation service is.</p>
-        <p><strong>Which method/Algo to be used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items. The basic assumption behind the algorithm is that users with similar interests have common preferences.</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
-        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External Github Repo</a></p>
+         <h3>Items suggestion based on range filter</h3>
+        <p><strong>What it is:</strong> Whenever you visit any e-commerce webiste there is an option to show items that are in the some range, it could be cost,some types where multiple options are available.</p>
+        <p><strong>Which method/Algo to be used:</strong> Segment Trees perform really well for range based filtering, with its time complexity of O(n) for building of the tree and O(logn) for queries.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Segment Tree</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-sum-of-given-range/">GFG</a></p>
 
-        
     </div>
 
     <div class="references">
