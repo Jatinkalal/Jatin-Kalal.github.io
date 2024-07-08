@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -123,11 +122,11 @@
 
     <div class="business-cases">
         <h2>Identified Business Cases</h2>
-        <div class="case-circle case1">Case 1</div>
-        <div class="case-circle case2">Case 2</div>
-        <div class="case-circle case3">Case 3</div>
-        <div class="case-circle case4">Case 4</div>
-        <div class="case-circle case5">Case 5</div>
+        <div class="case-circle case1">Order Processing System</div>
+        <div class="case-circle case2">Delivery Service</div>
+        <div class="case-circle case3">User Searchflow</div>
+        <div class="case-circle case4">Inventory Management</div>
+        <div class="case-circle case5">Notification and Recommendation</div>
     </div>
 
     <div class="case-description">
