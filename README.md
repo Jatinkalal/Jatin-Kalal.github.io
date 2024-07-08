@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -126,16 +126,31 @@
     <div class="introduction">
         <h2>Introduction</h2>
         <img src="https://aeldraconsultancy.in/site/views//assets/images/eCommerce.jpg" alt="Introduction Image" class="intro-image">
-        <p>In this work we idenfitfy several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
+        <p>In this work we identify several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
     <div class="business-cases">
         <h2>Identified Business Cases</h2>
-        <div class="case-rectangle case1">Delivery Service</div>
-        <div class="case-rectangle case2">Order Processing</div>
-        <div class="case-rectangle case3">Inventory Management</div>
-        <div class="case-rectangle case4">Recommendation</div>
-        <div class="case-rectangle case5">Item Range System</div>
+        <div class="case-rectangle case1">
+            <img src="path_to_delivery_service_image.jpg" alt="Delivery Service Image">
+            Delivery Service
+        </div>
+        <div class="case-rectangle case2">
+            <img src="path_to_order_processing_image.jpg" alt="Order Processing Image">
+            Order Processing
+        </div>
+        <div class="case-rectangle case3">
+            <img src="path_to_inventory_management_image.jpg" alt="Inventory Management Image">
+            Inventory Management
+        </div>
+        <div class="case-rectangle case4">
+            <img src="path_to_recommendation_service_image.jpg" alt="Recommendation Service Image">
+            Recommendation Service
+        </div>
+        <div class="case-rectangle case5">
+            <img src="path_to_item_range_system_image.jpg" alt="Item Range System Image">
+            Item Range System
+        </div>
     </div>
 
     <div class="case-description">
@@ -146,6 +161,45 @@
         <p><strong>Alternative Algorithm:</strong> A* algorithm, a faster alternative with time complexity O(E), where E is the number of edges.</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/A*.cpp" class="code">A*</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/a-search-algorithm/">GeeksforGeeks</a></p>
+    </div>
+
+    <div class="case-description">
+        <h3>Order Processing System</h3>
+        <img src="https://www.sweetprocess.com/wp-content/uploads/2023/04/Order_management_system.jpg" alt="Order Processing Image">
+        <p><strong>What it is:</strong> It involves keeping track of the incoming orders and its processing.</p>
+        <p><strong>Data Structure Used:</strong> Priority Queue (Heap) to maintain incoming orders, time complexity O(log n) for insertions and deletions.</p>
+        <p><strong>Alternative Data Structure:</strong> Skip List, although the implementation could be challenging, it offers a time complexity of O(log n).</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/SkipList.cpp" class="code">Skip List</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/skip-list-set-2-insertion/">GeeksforGeeks</a></p>
+    </div>
+
+    <div class="case-description">
+        <h3>Inventory Management System</h3>
+        <img src="https://jelvix.com/wp-content/uploads/2021/05/7.png" alt="Inventory Management Image">
+        <p><strong>What it is:</strong> Inventory management is about keeping track of inventory levels, orders, sales, and deliveries.</p>
+        <p><strong>Data Structure Used:</strong> AVL Trees, defined as a self-balancing BST where the difference between heights of left and right subtrees for any node cannot be more than one. It offers a time complexity of O(log n) for all three tree operations.</p>
+        <p><strong>Alternative Data Structure:</strong> Red Black Trees are self-balancing, using a simple color-coding scheme to adjust the tree after each modification. It offers a time complexity of O(log n) for all three operations.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/RedBlackTree.cpp" class="code">Red Black Tree</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/introduction-to-red-black-tree/">GeeksforGeeks</a></p>
+    </div>
+
+    <div class="case-description">
+        <h3>Recommendation Service</h3>
+        <img src="https://useinsider.com/assets/media/2021/05/recommendation-systems-sm-2.png" alt="Recommendation Service Image">
+        <p><strong>What it is:</strong> Recommendation service suggests items based on user preferences and behavior.</p>
+        <p><strong>Method/Algorithm Used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
+        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External GitHub Repo</a></p>
+    </div>
+
+    <div class="case-description">
+        <h3>Item Range System</h3>
+        <img src="https://woobewoo.com/wp-content/uploads/2020/07/Price-Range.png" alt="Item Range System Image">
+        <p><strong>What it is:</strong> Item range system determines which items to display based on user's preferences and behavior.</p>
+        <p><strong>Data Structure Used:</strong> Range Tree, where each node contains the minimum and maximum value of its children. Time complexity O(log n) for range queries.</p>
+        <p><strong>Alternative Data Structure:</strong> Segment Tree, an advanced data structure that allows querying which of the N segments contain a given value. It offers a time complexity of O(log n).</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segment.cpp" class="code">Segment Tree</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/">GeeksforGeeks</a></p>
     </div>
 
     <div class="references">
