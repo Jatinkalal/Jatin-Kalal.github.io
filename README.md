@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +28,7 @@
 
         .introduction {
             margin-bottom: 20px;
+            text-align: center; /* Centering the introduction section */
         }
 
         .introduction h2 {
@@ -37,15 +38,15 @@
 
         .intro-image {
             display: block;
-            width: 50%;
+            width: 70%; /* Increased size */
             height: auto;
-            margin-right: 50px;
-            margin-left: 50px;
+            margin: 0 auto; /* Centering the image */
             margin-bottom: 10px;
         }
 
         .business-cases {
             margin-bottom: 20px;
+            text-align: center; /* Centering the business cases */
         }
 
         .business-cases h2 {
@@ -53,17 +54,19 @@
             margin-bottom: 10px;
         }
 
-        .case-circle {
+        .case-rectangle {
             display: inline-block;
-            width: 100px;
+            width: 200px;
             height: 100px;
             border: 2px solid #000;
-            border-radius: 50%;
-            margin-right: 10px;
+            border-radius: 10px;
+            margin: 10px;
             text-align: center;
             line-height: 100px;
             color: white;
             font-weight: bold;
+            padding: 10px; /* Adding padding to fit text */
+            box-sizing: border-box; /* Ensure padding is included in the dimensions */
         }
 
         .case1 {
@@ -122,11 +125,11 @@
 
     <div class="business-cases">
         <h2>Identified Business Cases</h2>
-        <div class="case-circle case1">Order Processing System</div>
-        <div class="case-circle case2">Delivery Service</div>
-        <div class="case-circle case3">User Searchflow</div>
-        <div class="case-circle case4">Inventory Management</div>
-        <div class="case-circle case5">Notification and Recommendation</div>
+        <div class="case-rectangle case1">Order Processing System</div>
+        <div class="case-rectangle case2">Delivery Service</div>
+        <div class="case-rectangle case3">User Searchflow</div>
+        <div class="case-rectangle case4">Inventory Management</div>
+        <div class="case-rectangle case5">Notification and Recommendation</div>
     </div>
 
     <div class="case-description">
@@ -151,4 +154,3 @@
     </div>
 </body>
 </html>
-
