@@ -153,7 +153,7 @@
     <div class="introduction">
         <h2>Introduction</h2>
         <img src="https://aeldraconsultancy.in/site/views//assets/images/eCommerce.jpg" alt="Introduction Image" class="intro-image">
-        <p>In this work we identify several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will delve into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
+        <p>In this work we identify several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will go into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
     <div class="business-cases">
@@ -201,8 +201,8 @@
         <img src="https://useinsider.com/assets/media/2021/05/recommendation-systems-sm-2.png" alt="Recommendation Service Image">
         <p><strong>What it is:</strong> Recommendation service suggests items based on user preferences and behavior.</p>
         <p><strong>Method/Algorithm Used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items.</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/CollaborativeFiltering.cpp" class="code">Collaborative Filtering</a></p>
-        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/collaborative-filtering/">GeeksforGeeks</a></p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
+        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External Github Repo</a></p>
     </div>
 
     <div class="case-description">
@@ -210,19 +210,18 @@
         <img src="https://woobewoo.com/wp-content/uploads/2020/07/Price-Range.png" alt="Item Range Search System Image">
         <p><strong>What it is:</strong> It is about finding items within a given range of values efficiently.</p>
         <p><strong>Data Structure Used:</strong> Segment Tree, used for storing intervals, offers a time complexity of O(log n) for range queries.</p>
-        <p><strong>Alternative Data Structure:</strong> Interval Trees, similar to Segment Trees but uses a balanced BST with an added midpoint for each segment. It also offers a time complexity of O(log n).</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/IntervalTree.cpp" class="code">Interval Tree</a></p>
-        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/interval-tree/">GeeksforGeeks</a></p>
+        
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segmenTree.cpp" class="code">Segment Tree</a></p>
+        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-sum-of-given-range/">GeeksforGeeks</a></p>
     </div>
 
     <div class="case-description">
         <h3>Shopping Cart System</h3>
         <img src="https://theecommmanager.com/wp-content/uploads/sites/6/2022/11/what-is-a-shopping-cart-in-ecommerce-featured-image-01-1024x576.png" alt="Shopping Cart System Image">
-        <p><strong>What it is:</strong> It is about managing items added to a user's cart for purchase, ensuring efficient updates and retrievals.</p>
-        <p><strong>Data Structure Used:</strong> Hash Table, provides O(1) average time complexity for insertions, deletions, and lookups.</p>
-        <p><strong>Alternative Data Structure:</strong> Balanced Binary Search Tree, such as AVL or Red Black Tree, offers O(log n) time complexity for the same operations but ensures elements are ordered.</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShoppingCartAVL.cpp" class="code">AVL Tree Shopping Cart</a></p>
-        <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/avl-tree-set-1-insertion/">GeeksforGeeks</a></p>
+        <p><strong>What it is:</strong>It maintains items which are selected to buy. Add and delete are the major two functions of this service.</p>
+        <p><strong>Data Structure Used:</strong>Linked List is a common data strcuture used with time complexity O(n) for addition and deletion</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">AVL Tree Shopping Cart</a></p>
+        <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
     </div>
 
     <!-- Time and Space Complexities Table -->
