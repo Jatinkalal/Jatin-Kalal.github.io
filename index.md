@@ -280,8 +280,9 @@
 
     <div class="references">
         <h2>References</h2>
-        <p>1. GeeksforGeeks (GFG) 'System Architecture for E-commerce'.</p>
-        <p>2. Medium 'Building scalable E-commerce empire'.</p>
+        <p>1. Pugh, W., 1990. Skip lists: a probabilistic alternative to balanced trees. Communications of the ACM, 33(6), pp.668-676..</p>
+        <p>2. GeeksforGeeks (GFG) 'System Architecture for E-commerce'.</p>
+        <p>3. Medium 'Building scalable E-commerce empire'.</p>
     </div>
 </body>
 </html>
