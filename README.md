@@ -136,6 +136,7 @@
         <div class="case-rectangle case3">Inv Management</div>
         <div class="case-rectangle case4">Recommendation</div>
         <div class="case-rectangle case5">Item Range Sys</div>
+        <div class="case-rectangle case6">Shopping Cart</div>
     </div>
 
 
@@ -186,6 +187,16 @@
         <p><strong>Alternative Data Structure:</strong> Segment Tree, an advanced data structure that allows querying which of the N segments contain a given value. It offers a time complexity of O(log n).</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/segment.cpp" class="code">Segment Tree</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/">GeeksforGeeks</a></p>
+    </div>
+
+
+    <div class="case-description">
+        <h3>Shopping Cart Service</h3>
+        <img src="https://theecommmanager.com/wp-content/uploads/sites/6/2022/11/what-is-a-shopping-cart-in-ecommerce-featured-image-01-1024x576.png" alt="Shopping cart">
+        <p><strong>What it is:</strong> It maintains items which are selected to buy. Add and delete are the major two functions of this service.</p>
+        <p><strong>Data Structure Used:</strong> Linked List is a common data strcuture used with time complexity O(n) for addition and deletion</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">Shopping Cart</a></p>
+        <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
     </div>
 
     <div class="references">
