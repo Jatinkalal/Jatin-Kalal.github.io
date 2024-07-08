@@ -134,11 +134,11 @@
 
     <div class="case-description">
         <h3>Order Processing System</h3>
-        <p>What it is: It involves keeping track of the incoming orders and its processing.</p>
-        <p>Data Strcuture Used: Priority Queue(Heap) to maintain incoming orders, time complexity O(logn) for insertions and deletion.
-        <p>Alternative Data strcuture: Skip list although the implementation could be challenging but offers a time complexity of O(logn).
-        <p>Code:
-        <p> Souce: 
+        <p><em>What it is:</em> It involves keeping track of the incoming orders and its processing.</p>
+        <p><strong>Data Structure Used:</strong> Priority Queue (Heap) to maintain incoming orders, time complexity O(log n) for insertions and deletions.</p>
+        <p><strong>Alternative Data Structure:</strong> Skip List, although the implementation could be challenging, it offers a time complexity of O(log n).</p>
+        <p><strong>Code:</strong> <span class="code">/codes/skipList.cpp</span></p>
+        <p><strong>Source:</strong> <a href="https://www.example.com">Example Website</a></p>
         <h3>Delivery Service</h3>
         <p>write abt case2.</p>
         <h3>User Searchflow</h3>
