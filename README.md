@@ -149,14 +149,25 @@
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/skip-list-set-2-insertion/">GFG</a></p>
 
         <h3>Inventory Management System</h3>
-        <p><strong>What it is:</strong>Inventory management about keeping track of inventory levels(basically goods), orders, sales and deliveries.</p>
+        <p><strong> What it is:</strong>Inventory management about keeping track of inventory levels(basically goods), orders, sales and deliveries.</p>
         <p><strong>Data Structure Used:</strong> AVL Trees,defined as a self-balancing BST where the difference between heights of left and right subtrees for any node cannot be more than one. It offers a time complexity of O(log<sub>2</sub>n) for all three tree operations.</p>
         <p><strong>Alternative Data Structure:</strong> Red Black Trees are self-balancing, using a simple color-coding scheme to adjust the tree after each modification. It offers a time complexity of O(logn) for all three operations.</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/RedBlackTree.cpp" class="code">Red Black Tree</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/introduction-to-red-black-tree/">GFG</a></p>
 
-        <h3>Notification and Recommendation Service</h3>
-        <p>abt case5.</p>
+        <h3>Recommendation Service</h3>
+        <p><strong>What it is:</strong> Whenever you search for a book,some e-commerce webistes suggests you similiar books based on your liking, this is what recommendation service is.</p>
+        <p><strong>Which method/Algo to be used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items. The basic assumption behind the algorithm is that users with similar interests have common preferences.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
+        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External Github Repo</a></p>
+
+         <h3>Recommendation Service</h3>
+        <p><strong>What it is:</strong> Whenever you search for a book,some e-commerce webistes suggests you similiar books based on your liking, this is what recommendation service is.</p>
+        <p><strong>Which method/Algo to be used:</strong> Collaborative Filtering recommends items based on similarity measures between users and/or items. The basic assumption behind the algorithm is that users with similar interests have common preferences.</p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/recommendation.cpp" class="code">Collaborative Filtering</a></p>
+        <p><strong>Source:</strong> <a href="https://github.com/bowbowbow/CollaborativeFiltering/blob/master/recommender.cpp">External Github Repo</a></p>
+
+        
     </div>
 
     <div class="references">
