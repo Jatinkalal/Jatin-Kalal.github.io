@@ -220,7 +220,7 @@
         <img src="https://theecommmanager.com/wp-content/uploads/sites/6/2022/11/what-is-a-shopping-cart-in-ecommerce-featured-image-01-1024x576.png" alt="Shopping Cart System Image">
         <p><strong>What it is:</strong>It maintains items which are selected to buy. Add and delete are the major two functions of this service.</p>
         <p><strong>Data Structure Used:</strong>Linked List is a common data strcuture used with time complexity O(n) for addition and deletion</p>
-        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">AVL Tree Shopping Cart</a></p>
+        <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">ShopCart</a></p>
         <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
     </div>
 
