@@ -117,7 +117,7 @@
     <div class="introduction">
         <h2>Introduction</h2>
         <img src="https://aeldraconsultancy.in/site/views//assets/images/eCommerce.jpg" alt="Introduction Image" class="intro-image">
-        <p>Your introduction text goes here. You can write a brief introduction about yourself or the project.</p>
+        <p>Intro still on the way.</p>
     </div>
 
     <div class="business-cases">
@@ -131,22 +131,22 @@
 
     <div class="case-description">
         <h3>Case 1</h3>
-        <p>Description of Business Case 1.</p>
+        <p>likh case1.</p>
         <h3>Case 2</h3>
-        <p>Description of Business Case 2.</p>
+        <p>write abt case2.</p>
         <h3>Case 3</h3>
-        <p>Description of Business Case 3.</p>
+        <p>abt case3.</p>
         <h3>Case 4</h3>
-        <p>Description of Business Case 4.</p>
+        <p>abt case4.</p>
         <h3>Case 5</h3>
-        <p>Description of Business Case 5.</p>
+        <p>abt case5.</p>
     </div>
 
     <div class="references">
         <h2>References</h2>
         <ol>
-            <li>Reference 1</li>
-            <li>Reference 2</li>
+            <li>add kar1</li>
+            <li>add kar2</li>
         </ol>
     </div>
 </body>
