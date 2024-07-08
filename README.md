@@ -150,7 +150,7 @@
 
         <h3>Inventory Management System</h3>
         <p><strong>What it is:</strong>Inventory management about keeping track of inventory levels(basically goods), orders, sales and deliveries.</p>
-        <p><strong>Data Structure Used:</strong> AVL Trees,defined as a self-balancing BST where the difference between heights of left and right subtrees for any node cannot be more than one. It offers a time complexity of O(log<sub>2</sub>n)</p>
+        <p><strong>Data Structure Used:</strong> AVL Trees,defined as a self-balancing BST where the difference between heights of left and right subtrees for any node cannot be more than one. It offers a time complexity of O(log<sub>2</sub>n) for all three tree operations.</p>
         <p><strong>Alternative Data Structure:</strong> Red Black Trees are self-balancing, using a simple color-coding scheme to adjust the tree after each modification. It offers a time complexity of O(logn) for all three operations.</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/RedBlackTree.cpp" class="code">Red Black Tree</a></p>
         <p><strong>Source:</strong> <a href="https://www.geeksforgeeks.org/introduction-to-red-black-tree/">GFG</a></p>
