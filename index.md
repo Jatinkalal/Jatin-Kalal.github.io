@@ -229,9 +229,9 @@
     <table class="complexity-table">
         <thead>
             <tr>
-                <th>Algorithm</th>
-                <th>Time Complexity</th>
-                <th>Space Complexity</th>
+                <th><strong>Algorithm</strong></th>
+                <th><strong>Time Complexity</strong></th>
+                <th><strong>Space Complexity</strong></th>
             </tr>
         </thead>
         <tbody>
