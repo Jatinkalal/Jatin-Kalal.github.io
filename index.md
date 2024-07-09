@@ -251,8 +251,8 @@
     <div class="case-description">
         <h3>Shopping Cart System</h3>
         <img src="https://theecommmanager.com/wp-content/uploads/sites/6/2022/11/what-is-a-shopping-cart-in-ecommerce-featured-image-01-1024x576.png" alt="Shopping Cart System Image">
-        <p><strong>What it is:</strong>It maintains items which are selected to buy. Add and delete are the major two functions of this service.</p>
-        <p><strong>Data Structure Used:</strong>Linked List is a common data strcuture used with time complexity O(n) for addition and deletion</p>
+        <p><strong>What it is:</strong> It maintains items which are selected to buy. Add and delete are the major two functions of this service.</p>
+        <p><strong>Data Structure Used:</strong> Linked List is a common data strcuture used with time complexity O(n) for addition and deletion</p>
         <p><strong>Code:</strong> <a href="https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp" class="code">ShopCart</a></p>
         <p><strong>Source:</strong> <a href="https://stackoverflow.com/questions/18115186/data-structure-to-represent-a-shopping-cart">Stack Overflow</a></p>
     </div>
@@ -260,8 +260,8 @@
     <div class="case-description">
         <h3>Location Based Item Suggestion</h3>
         <img src="https://miro.medium.com/v2/resize:fit:1400/1*K0p9LiIBYfXkAUIU0Zz8EA.jpeg" alt="Location Based Suggestion">
-        <p><strong>What it is:</strong>It suggests/recommends items based on local region of the user.</p>
-        <p><strong>Algorithm Used:</strong>Geographical Based Location. Time complexity O(n) for generating recomendation and O(1) for updating</p>
+        <p><strong>What it is:</strong> It suggests/recommends items based on local region of the user.</p>
+        <p><strong>Algorithm Used:</strong> Geographical Based Location. Time complexity O(n) for generating recomendation and O(1) for updating</p>
         <p><strong>Code:</strong> <a href="https://github.com/shakasom/location-based-recommendations" class="code">External Code</a></p>
 
     </div>
@@ -269,8 +269,8 @@
      <div class="case-description">
         <h3>Customer Information Storage</h3>
         <img src="https://media.sproutsocial.com/uploads/2023/02/Managing-customer-data-from-the-first-social-engagement-to-the-last-service-DM_V1-01-2.svg" alt="Location Based Suggestion">
-        <p><strong>What it is:</strong>It stores customer information.</p>
-        <p><strong>Algorithm Used:</strong>Linked List, with Time complexity O(n) for addition and deletion at a given position x.</p>
+        <p><strong>What it is:</strong> It stores customer information. The data of user (Delivery, Take Away) is saved in the linked List. We used Linked List instead of array because of dynamic size.</p>
+        <p><strong>Data structure Used:</strong> Linked List, with Time complexity O(n) for addition and deletion at a given position x.</p>
         <p><strong>Code:</strong> <a href="https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp" class="code">External Code</a></p>
 
     </div>
@@ -278,8 +278,8 @@
         <div class="case-description">
         <h3>Optimize discount distribution for different cities</h3>
         <img src="https://www.mdpi.com/smartcities/smartcities-06-00094/article_deploy/html/images/smartcities-06-00094-g009-550.jpg" alt="Route Suggestion">
-        <p><strong>What it is:</strong>The reason for using this is that we want to give discount to user and previous distance is not used.</p>
-        <p><strong>Algorithm Used:</strong>Prim's algorithm can be used to find the minimum spanning tree of a graph. So, it provides the distances between areas in a city. The edges included in the MST represent the optimal paths where discounts should be applied. By following these paths, the e-commerce platform can distribute discounts in a manner that minimizes the overall cost while still reaching all relevant areas.</p>
+        <p><strong>What it is:</strong> The reason for using this is that we want to give discount to user and previous distance is not used.</p>
+        <p><strong>Algorithm Used:</strong> Prim's algorithm can be used to find the minimum spanning tree of a graph. So, it provides the distances between areas in a city. The edges included in the MST represent the optimal paths where discounts should be applied. By following these paths, the e-commerce platform can distribute discounts in a manner that minimizes the overall cost while still reaching all relevant areas.</p>
         <p><strong>Code:</strong> <a href="https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp" class="code">External Code</a></p>
 
     </div>
@@ -287,8 +287,8 @@
     <div class="case-description">
         <h3>Dynamic price service</h3>
         <img src="https://www.hubspot.com/hs-fs/hubfs/The%20Plain%20English%20Guide%20to%20Dynamic%20Pricing.webp?width=600&height=231&name=The%20Plain%20English%20Guide%20to%20Dynamic%20Pricing.webp" alt="Dynamic Price">
-        <p><strong>What it is:</strong>Dynamic Price based on festivals/sales</p>
-        <p><strong>Algorithm Used:</strong>Segment Tree with lazy propogation</p>
+        <p><strong>What it is:</strong> Dynamic Price based on festivals/sales</p>
+        <p><strong>Algorithm Used:</strong> Segment Tree with lazy propogation</p>
         <p><strong>Code:</strong> <a href="https://github.com/vivek1011/Segment-tree-lazy-propagation-" class="code">External Code</a></p>
 
     </div>
