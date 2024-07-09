@@ -36,7 +36,7 @@
 ### Role of DSA in this?
 Data structures play a crucial role in E-commerce systems by enabling efficient retrieval, and management of data. They are fundamental components that help E-commerce platforms perform various tasks such as inventory management, order processing, customer recommendations effectively. 
 
-## Business cases are identified under this domain.
+## Business cases identified under this domain.
 ### Delivery Service System
 - **What it is:** It is about tracking orders which are out for delivery and finding the shortest path to the customer.
 - **Algorithm Used:** Dijkstra's Algorithm, time complexity O(V^2) using arrays where V is the number of vertices.
