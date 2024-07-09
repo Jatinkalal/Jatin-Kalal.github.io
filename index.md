@@ -30,6 +30,10 @@
             margin-bottom: 20px;
             text-align: center;
         }
+        .Objectives {
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
         .introduction h2 {
             font-size: 1.8em;
