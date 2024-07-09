@@ -172,6 +172,15 @@
         <p>In this work we identify several business cases within the domain of electronic commerce (e-commerce), where transactions of goods and services occur over the internet. E-commerce involves different market segments, involving both businesses and individual sellers. I will go into specific challenges faced in e-commerce operations and propose algorithmic solutions designed to enhance efficiency.</p>
     </div>
 
+    <div class="Objectives">
+        <h2>Objectives</h2>
+        <ul>
+            <li>To identify set of buisness cases/ functionalities for the e-commerce domain</li>
+            <li>Provide algorithmic solution to each of the identified buisness cases</li>
+            <li>Justify with time and space complexities for the provided solution</li>
+        </ul>
+    </div>
+
     <div class="business-cases">
         <h2>Identified Business Cases</h2>
         <div class="case-rectangle case1">Delivery Service</div>
@@ -182,7 +191,7 @@
         <div class="case-rectangle case6">Shopping Cart</div>
         <div class="case-rectangle case7">Sugg on Loc</div>
         <div class="case-rectangle case8">Customer Info</div>
-        <div class="case-rectangle case9">Route analysis</div>
+        <div class="case-rectangle case9">Discount dist</div>
         <div class="case-rectangle case10">Dynamic Price</div>
     </div>
 
@@ -257,16 +266,16 @@
         <h3>Customer Information Storage</h3>
         <img src="https://media.sproutsocial.com/uploads/2023/02/Managing-customer-data-from-the-first-social-engagement-to-the-last-service-DM_V1-01-2.svg" alt="Location Based Suggestion">
         <p><strong>What it is:</strong>It stores customer information.</p>
-        <p><strong>Algorithm Used:</strong>Linked List, with Time complexity O(n) for adding and deletion</p>
+        <p><strong>Algorithm Used:</strong>Linked List, with Time complexity O(n) for addition and deletion at a given position x.</p>
         <p><strong>Code:</strong> <a href="https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp" class="code">External Code</a></p>
 
     </div>
 
         <div class="case-description">
-        <h3>Route Analysis for different cities</h3>
+        <h3>Optimize discount distribution for different cities</h3>
         <img src="https://www.mdpi.com/smartcities/smartcities-06-00094/article_deploy/html/images/smartcities-06-00094-g009-550.jpg" alt="Route Suggestion">
-        <p><strong>What it is:</strong>It tells you the effective path to deliver between two cities.</p>
-        <p><strong>Algorithm Used:</strong>Prims Algorithm</p>
+        <p><strong>What it is:</strong>The reason for using this is that we want to give discount to user and previous distance is not used.</p>
+        <p><strong>Algorithm Used:</strong>Prim's algorithm can be used to find the minimum spanning tree of a graph. So, it provides the distances between areas in a city. The edges included in the MST represent the optimal paths where discounts should be applied. By following these paths, the e-commerce platform can distribute discounts in a manner that minimizes the overall cost while still reaching all relevant areas.</p>
         <p><strong>Code:</strong> <a href="https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp" class="code">External Code</a></p>
 
     </div>
@@ -315,6 +324,16 @@
                 <td>Skip List</td>
                 <td>Insert/Delete/Search: O(log n)</td>
                 <td>O(n)</td>
+            </tr>
+            <tr>
+                <td>Linked List</td>
+                <td>Insert/Delete at a x position: O(n)</td>
+                <td>O(n)</td>
+            </tr>
+            <tr>
+                <td>Prim's Algorithm</td>
+                <td>Using adj List: O(VlogV + ElogV) = O(ElogV)</td>
+                <td>O(V+E)</td>
             </tr>
         </tbody>
     </table>
