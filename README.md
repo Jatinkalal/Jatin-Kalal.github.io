@@ -27,6 +27,11 @@
 - Item in range filter system
 - Shopping cart system
 
+### Objectives
+
+- To identify set of buisness cases/ functionalities for the e-commerce domain
+- Provide algorithmic solution to each of the identified buisness cases
+- Justify with time and space complexities for the provided solution
 
 ### Role of DSA in this?
 Data structures play a crucial role in E-commerce systems by enabling efficient retrieval, and management of data. They are fundamental components that help E-commerce platforms perform various tasks such as inventory management, order processing, customer recommendations effectively. 
@@ -67,6 +72,26 @@ Data structures play a crucial role in E-commerce systems by enabling efficient 
 - **Data Structure Used:** Linked List is a common data strcuture used with time complexity O(n) for addition and deletion
 - [Code for ShopCart](https://github.com/Jatinkalal/Jatin-Kalal.github.io/blob/main/codes/ShopCart.cpp)
 
+### Location Based Item Suggestion
+- **What it is:** It suggests/recommends items based on local region of the user.
+- **Algorithm Used:** Geographical Based Location. Time complexity O(n) for generating recomendation and O(1) for updating
+- [External Code](https://github.com/shakasom/location-based-recommendations)
+
+### Customer Information Storage
+- **What it is:** It stores customer information.
+- **Data Structure Used:** Linked List, with Time complexity O(n) for addition and deletion at a given position x.
+- [External Code](https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp)
+
+### Optimize discount distribution for different cities
+- **What it is:** The reason for using this is that we want to give discount to user and previous distance is not used.
+- **Algorithm Used:** Prim's algorithm can be used to find the minimum spanning tree of a graph. So, it provides the distances between areas in a city. The edges included in the MST represent the optimal paths where discounts should be applied. By following these paths, the e-commerce platform can distribute discounts in a manner that minimizes the overall cost while still reaching all relevant areas.
+- [External Code](https://github.com/HozefaRauf/DSA-project-Online-Ecommerce-Store/blob/main/project.cpp)
+
+### Dynamic price service
+- **What it is:** Dynamic price of items during festivals/sales.
+- **Algorithm Used:** Segment Tree with lazy propogation
+- [External Code](https://github.com/vivek1011/Segment-tree-lazy-propagation-)
+
 ### Time and Space Complexities
 
 | **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
@@ -76,6 +101,8 @@ Data structures play a crucial role in E-commerce systems by enabling efficient 
 | **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
 | **A_star Search Algorithm**           | O(E)                                           | O(E)                                          |
 | **Skip List**                         | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+| **Linked List**                       | Insert/Delete: O(n)                            | O(n)                                          |
+| **Prim's Algorithm**                  | Using adj List: O(VlogV + ElogV) = O(ElogV)    | O(V+E)                                        |
 
 ## References
 1. Pugh, W., 1990. Skip lists: a probabilistic alternative to balanced trees. Communications of the ACM, 33(6), pp.668-676.
